@@ -442,6 +442,23 @@ class WebDriver(object):
         return None
 
     @property
+    def alert_text(self):
+        """
+        获取alert并返回alert内容
+        """
+        context = None
+        try:
+            context = self.driver.switch_to.alert().text
+            # context = self.driver.switch_to_alert().text
+            logging.info("alert框内容为：{0}".format(context))
+        except:
+            logging.error("未获取到alert")
+        finally:
+            Logger().close_logger()
+        return context
+
+
+    @property
     def alert_accept(self):
         """
         获取alert并点击确定按钮
@@ -449,6 +466,7 @@ class WebDriver(object):
         """
         try:
             accept = self.driver.switch_to.alert()
+            # accept = self.driver.switch_to_alert()
             logging.info("获取alert并点击确定")
             accept.accept()
         except:
@@ -544,8 +562,12 @@ class WebDriver(object):
         else:
             logging.error("鼠标无法悬停在元素上")
         Logger().close_logger()
+        return
 
     def mouse_left_click(self, loc):
+        """
+        鼠标点击
+        """
         element = self.find_element(loc)
         if element:
             ActionChains(self.driver).click(element).perform()
@@ -667,6 +689,12 @@ class WebDriver(object):
         logging.info("滑动到页面底部")
         Logger().close_logger()
         return None
+
+    def is_element_exist(self, loc):
+        """
+        查看元素是否存在,返回bool值
+        """
+        return bool(self.find_element(loc))
 
     # def failed_screeshot(self):
     #     '''

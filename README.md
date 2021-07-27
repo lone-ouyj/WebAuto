@@ -11,7 +11,7 @@ ddt版本：ddt1.4.1
 
 pymysql版本：pymysql0.9.3
 
-xlrd版本：xlrd1.2.0
+openpyxl版本：openpyxl3.0.7
 
 ###### **2.项目介绍**
 base：存放封装好各类方法;
