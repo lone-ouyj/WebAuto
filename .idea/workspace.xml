@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d42e7013-098e-4200-af21-0a92164a453b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebAuto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebAuto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/BaseAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/BaseAction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/shopindex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mysql_config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/env_config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sys_config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/sys_config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mysql_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/env_util.py" afterDir="false" />
+    <list default="true" id="d42e7013-098e-4200-af21-0a92164a453b" name="Default Changelist" comment="逻辑修改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,8 +172,16 @@
       <workItem from="1626158135877" duration="1573000" />
       <workItem from="1626243551002" duration="5172000" />
       <workItem from="1626327809417" duration="6352000" />
-      <workItem from="1627374671418" duration="765000" />
+      <workItem from="1627374671418" duration="1730000" />
     </task>
+    <task id="LOCAL-00001" summary="逻辑修改">
+      <created>1627375752751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627375752751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +198,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="逻辑修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="逻辑修改" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WebAuto$Unittests_for_test_login_LoginTest.coverage" NAME="Unittests for test_login.LoginTest Coverage Results" MODIFIED="1625478714929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
